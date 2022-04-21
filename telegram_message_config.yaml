@@ -1,0 +1,26 @@
+# config.yml
+
+environment: "develop"
+server:
+  appVersion: "simple-bot-server/1.0"
+  port: ":9000"
+  ssl: false
+  ctxDefaultTimeout: 7
+logger:
+  logLevel: "debug"
+postgres:
+  postgresqlHost: "127.0.0.1"
+  postgresqlPort: "5432"
+  postgresqlUser: "asadbek"
+  postgresqlDbname: "tgbot"
+  postgresqlPassword: "3066586"
+  postgresqlSSLMode: false
+telegramBot:
+  token: "5338603668:AAF_WLAvEMoaxBweP66N241dLVhO_kM5yWc"
+  url: "https://api.telegram.org"
+file:
+  receive:
+    - "audio"
+    - "photo"
+    - "video"
+    - "document"
